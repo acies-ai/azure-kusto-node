@@ -124,7 +124,7 @@ function main(): void {
                         stream = new StreamDescriptor(stream, null, CompressionType.GZIP);
                     }
                     try {
-                        await ingestClient.ingestFromStream(stream, item.ingestionProperties);
+                        await ingestClient.ingestFromStream(stream, item.ingestionProperties, "e2etest");
                     } catch (err) {
                         assert.fail(`Failed to ingest ${item.description}`);
                     }
