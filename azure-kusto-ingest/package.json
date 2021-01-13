@@ -1,7 +1,7 @@
 {
-  "name": "azure-kusto-ingest",
+  "name": "@acies-ai/azure-kusto-ingest",
   "version": "2.1.0",
-  "description": "Azure Data Explorer Ingestion SDK",
+  "description": "Acies AI Ltd. variant of the Azure Data Explorer Ingestion SDK",
   "main": "index.js",
   "engines": {
     "node": ">= 8.0.0"
