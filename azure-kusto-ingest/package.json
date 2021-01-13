@@ -1,5 +1,5 @@
 {
-  "name": "@acies-ai/azure-kusto-ingest",
+  "name": "@aciesai/azure-kusto-ingest",
   "version": "2.1.0",
   "description": "Acies AI Ltd. variant of the Azure Data Explorer Ingestion SDK",
   "main": "index.js",
